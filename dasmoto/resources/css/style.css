@@ -1,0 +1,101 @@
+body {
+  font-family: helvetica;
+  padding-left: 50px;
+  }
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("../images/pattern.jpg");
+}
+
+h2.front {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+
+
+span {
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+}
+th {
+  text-align: right;
+}
+.abtct {
+  width: 30%;
+  text-align: center;
+}
+.center {
+display: block;
+margin:auto;
+width: auto;
+max-width: 1220px;
+max-height: 500px;
+position: absolute;
+bottom: 0;
+top: 0;
+left: 0;
+right: 0;
+}
+.container > div {
+display: inline-block;
+width: 10%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+.overpic {
+  align: left;
+  text-align: center;
+  width: 250px;
+}
+
+#brush {
+  width: 250px;
+  background-color: #62bcfa;
+}
+
+#footer {
+  position: fixed;
+  bottom: 50px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+#frame {
+  width: 250px;
+  background-color: #daad86;
+}
+
+#color1 {
+  background-color:#62bcfa;
+}
+#color2 {
+  background-color:#daad86;
+}
+#color3 {
+  background-color:#312c32;
+}
+#color4 {
+  background-color:#6534ff;
+}
+
+#map {
+  width: 500px;
+  height: 500px;
+  padding-left: 15px;
+}
+
+#paint {
+  width: 250px;
+  background-color: #312c32;
+}

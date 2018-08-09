@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script>
+      //Took this js from w3, it's not working though :(
+
+      function myMap() {
+      var mapOptions = {
+          center: new google.maps.LatLng(51.5, -0.12),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      }
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPigk7Jg0_5lgyqRycfB1YnSZkAL58F5c &callback=myMap"
+    </script>
+
+    <meta charset="utf-8">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <title>About Dasmoto's</title>
+
+  </head>
+
+  <body>
+
+    <h1>About Dasmoto's</h1>
+    <div class="abtct" id="color1"><h2><span>Why</span></h2></div>
+    <p>Why do we exist?</p>
+    <div class="abtct" id="color2"><h2><span>How</span></h2></div>
+    <p>X years ago some people did something weird that succeeded in some way</p>
+    <div class="abtct" id="color3"><h2><span>When</span></h2></div>
+    <p>Our hours are:</p>
+    <!-- got table idea from stack overflow -->
+    <table>
+      <tr>
+        <th>Sunday:</th><td> 10 AM - 5 PM</td>
+      </tr>
+      <tr>
+        <th>Monday:</th><td> 8 AM - 7 PM</td>
+      </tr>
+      <tr>
+        <th>Tuesday:</th><td> 8 AM - 7 PM</td>
+      </tr>
+      <tr>
+        <th>Wednesday:</th><td> 8 AM - 7 PM</td>
+      </tr>
+      <tr>
+        <th>Thursday:</th><td> 8 AM - 7 PM</td>
+      </tr>
+      <tr>
+        <th>Friday:</th><td> 8 AM - 6 PM</td>
+      </tr>
+      <tr>
+        <th>Saturday:</th><td> 9 AM - 6 PM</td>
+      </tr>
+    </table>
+
+    <div class="abtct" id="color4"><h2><span>Where</span></h2></div>
+    <div id="map">Come visit us!<br>
+      <p><a href="" </a></p>
+    </div>
+    <script>myMap();</script>
+
+
+    <!-- Footer taken from my travel_blog project (with online help) -->
+
+    <footer class="container" id="footer">
+      <hr align="center" width="30%"/>
+      <div class="nowrap">
+        <font size="3">
+          <a href="./index.html" style="text-decoration:none">Home</a>
+        </font>
+      </div>
+      <div class="nowrap">
+        <font size="3">
+          <a href="mailto:dasmotoartsandcrafts@gmail.com" style="text-decoration:none">Contact</a>
+        </font>
+      </div>
+      <div class="nowrap">
+        <font size="3">
+          <a href="./about.html" style="text-decoration:none">About</a>
+        </font>
+      </div>
+      <hr align="center" width="30%"/>
+    </footer>
+  </body>
+</html>
